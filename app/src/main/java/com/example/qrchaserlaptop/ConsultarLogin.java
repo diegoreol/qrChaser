@@ -37,7 +37,7 @@ public class ConsultarLogin extends AppCompatActivity {
     private void obtenerDatosVolley(final String username,final String password) {
         System.out.println(username);
         System.out.println(password);
-        final String url = "http://192.168.162.179/proyecto/login.php?username="+username+"&password="+password;
+        final String url = "http://192.168.85.179/proyecto/login.php?username="+username+"&password="+password;
         System.out.println(url);
 
         final JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, url, null, new Response.Listener<JSONObject>(){

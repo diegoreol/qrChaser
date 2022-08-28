@@ -33,7 +33,7 @@ public class PedirTiendas extends AppCompatActivity {
     }
 
     private void obtenerDatosVolley() {
-        final String url = "http://192.168.162.179/proyecto/pedirTiendasv3.php";
+        final String url = "http://192.168.85.179/proyecto/pedirTiendasv3.php";
         System.out.println(url);
 
         final JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, url, null, new Response.Listener<JSONObject>(){
